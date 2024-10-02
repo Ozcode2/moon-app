@@ -1,0 +1,364 @@
+.missed {
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    background-color: #000;
+    padding-bottom: 100px;
+}
+
+.missed-container {
+    width: 100%;
+    height: 100%;
+}
+
+.missed-title-wrapper {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.h1.centred {
+    text-align: center;
+}
+
+.h1 {
+    color: #fff;
+    letter-spacing: -.5px;
+    text-transform: capitalize;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Arial, Helvetica , sans-serif;
+    font-size: 4vw;
+    font-weight: 100;
+    line-height: 4.2vw;
+    opacity: 1;
+}
+
+.missed-download-wrapper {
+    grid-column-gap: 25px;
+    grid-row-gap: 25px;
+    margin-top: 25px;
+    display: flex;
+}
+
+.download-app-button {
+    border: .5px solid #fff;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    width: 135px;
+    height: 40px;
+    transition: border-width .2s;
+    display: flex;
+}
+
+.w-inline-block {
+    max-width: 100%;
+}
+
+a {
+    background-color: rgba(0, 0, 0, 0);
+    cursor: pointer;
+}
+
+img {
+    vertical-align: middle;
+    max-width: 100%;
+    display: inline-block;
+}
+
+.missed-animation-wrapper {
+    justify-content: space-between;
+    display: flex;
+    padding-top: 100px;
+}
+
+.missed-animation-img-wrapper {
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    display: flex;
+    width: 50%;
+}
+
+.image-8 {
+    height: 80vh;
+}
+
+.missed-animation-content {
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    display: flex;
+    position: relative;
+}
+
+.folder-wrapper {
+    width: 100%;
+    display: flex;
+}
+
+.folder-img-1 {
+    z-index: 5;
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+}
+
+.folder-1 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    max-width: 330px;
+    height: 20vh;
+    display: flex;
+    position: relative;
+}
+
+.folder-1-text {
+    z-index: 2;
+    background-color: #161616;
+    border-radius: 17px;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    max-width: 261px;
+    height: auto;
+    padding: 20px 10px;
+    display: flex;
+    position: absolute;
+}
+
+.missed-copy {
+    grid-row-gap: 10px;
+    color: #fff;
+    text-align: center;
+    flex-direction: column;
+    font-family: Ppneuemontreal, sans-serif;
+    font-size: 1.1rem;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 1.3rem;
+    text-decoration: none;
+    display: flex;
+}
+
+.folder-bg-1 {
+    z-index: 1;
+    width: 100%;
+    position: static;
+}
+
+.missed-folder-title-1,
+.missed-folder-title-2,
+.missed-folder-title-3 {
+    z-index: 6;
+    color: #66a8f0;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: Ppneuemontreal, sans-serif;
+    font-size: 1.7rem;
+    line-height: 1.9rem;
+    position: absolute;
+}
+
+.folder-wrapper.right {
+    justify-content: flex-end;
+}
+
+.folder-wrapper {
+    width: 100%;
+    display: flex;
+}
+
+.folder-img-2 {
+    z-index: 5;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+}
+
+.folder-2 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    max-width: 330px;
+    height: 20vh;
+    display: flex;
+    position: relative;
+    top: auto;
+}
+
+.folder-2-text {
+    z-index: 2;
+    background-color: #161616;
+    border-radius: 17px;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    max-width: 261px;
+    height: auto;
+    padding: 25px 10px;
+    display: flex;
+    position: absolute;
+}
+
+.folder-bg-2 {
+    z-index: 1;
+    width: 100%;
+    position: static;
+}
+
+.folder-3 {
+    z-index: 2;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    max-width: 330px;
+    height: 20vh;
+    display: flex;
+    position: relative;
+    top: auto;
+}
+
+.folder-img--3 {
+    z-index: 5;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+}
+
+.folder-3-text {
+    z-index: 2;
+    background-color: #161616;
+    border-radius: 17px;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    max-width: 261px;
+    height: auto;
+    padding: 25px 10px;
+    display: flex;
+    position: absolute;
+}
+
+.folder-bg-3 {
+    z-index: 1;
+    width: 100%;
+    position: static;
+}
+
+@media screen and (max-width: 991px) {
+    .h1 {
+        font-size: 3rem;
+        line-height: 3.5rem;
+    }
+
+    .missed-animation-img-wrapper {
+        width: 100%;
+    }
+
+    .missed-title-wrapper {
+        padding-top: 50px;
+    }
+
+    .missed-animation-wrapper {
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    .image-8 {
+        object-fit: contain;
+        height: 60vh;
+    }
+
+    .missed-animation-content {
+        padding-top: 100px;
+        grid-row-gap: 50px;
+        width: 100%;
+        padding-bottom: 0;
+    }
+        
+}
+
+@media screen and (max-width: 479px) {
+
+    .h1.centred,
+    .h1.black-span {
+        font-size: 10vw;
+        line-height: 11vw;
+    }
+
+    .folder-1,
+    .folder-2,
+    .folder-3 {
+        min-width: 190px;
+    }
+
+    .missed-copy {
+        font-size: .9rem;
+        line-height: 1.2rem;
+    }
+
+    .folder-2-text {
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .h1.centred {
+        font-size: 8vw;
+        line-height: 9vw;
+    }
+
+    .image-8 {
+        height: 50vh;
+    }
+
+    .missed-animation-content {
+        grid-row-gap: 35px;
+        padding-right: 0px;
+    }
+
+    .folder-1,
+    .folder-2,
+    .folder-3 {
+        width: 45vw;
+        min-width: 220px;
+        max-width: none;
+        height: auto;
+    }
+
+    .folder-2-text {
+        padding: 20px;
+    }
+
+    .missed {
+        padding-top: 0;
+        overflow: hidden;
+    }
+
+}

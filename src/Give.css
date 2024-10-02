@@ -1,0 +1,136 @@
+.give {
+    background-image: url(https://cdn.prod.website-files.com/64d2bf6c3b1d58eb136f965a/64d9030e8af643b3d65f399b_Rocket%202_Full.svg);
+    background-position: 50% 90%;
+    background-repeat: no-repeat;
+    background-size: auto 120%;
+    width: 100%;
+    height: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #000;
+}
+
+.give-container {
+    width: 100%;
+    height: 100%;
+}
+
+.give-title-wrapper {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 0;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+
+.h-large {
+    color: #fff;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8vw;
+    font-weight: 700;
+    line-height: 8vw;
+}
+
+.blue-span {
+    color: #66a8f0;
+}
+
+.give-content {
+    flex-direction: column;
+    justify-content: center;
+    max-width: 50%;
+    margin-top: 50px;
+    display: flex;
+}
+
+.copy-big.centred {
+    text-align: center;
+}
+
+.copy-big {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.9rem;
+    text-decoration: none;
+}
+
+.give-download-wrapper {
+    grid-column-gap: 25px;
+    grid-row-gap: 25px;
+    justify-content: center;
+    margin-top: 25px;
+    display: flex;
+}
+
+.download-app-button {
+    border: .5px solid #fff;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    width: 135px;
+    height: 40px;
+    transition: border-width .2s;
+    display: flex;
+}
+
+.w-inline-block {
+    max-width: 100%;
+}
+
+a {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+img {
+    vertical-align: middle;
+    max-width: 100%;
+    display: inline-block;
+}
+
+@media screen and (max-width: 991px) {
+    .give {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .give-content {
+        max-width: 90%;
+    }
+}
+
+@media screen and (max-width: 479px) {
+
+    .h-large,
+    .h-large.black-span {
+        font-size: 9vw;
+        line-height: 9vw;
+    }
+
+    .give-download-wrapper {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .give-content {
+        max-width: none;
+        margin-top: 35px;
+    }
+
+    .copy-big {
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+    }
+
+    .give-download-wrapper {
+        flex-wrap: wrap;
+    }
+}
